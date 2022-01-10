@@ -5,7 +5,7 @@ contract CnyToken {
     string  public name = "CNY Token";
     string  public symbol = "CNY";
     string  public standard = "CNY Token v1.0";
-    uint256 public totalSupply;
+    uint256 public totalSupply=100000;
 
     event Transfer(
         address indexed _from,

@@ -23,7 +23,7 @@ App = {
       web3 = new Web3(App.web3Provider);
     }
 
-    //console.log(web3.currentProvider.host);
+    web3.eth.defaultAccount = web3.eth.accounts[0];
 
     return App.initContracts();
   },
